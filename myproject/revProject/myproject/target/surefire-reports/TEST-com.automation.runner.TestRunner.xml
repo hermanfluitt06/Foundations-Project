@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.automation.runner.TestRunner" time="7.701" tests="6" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\17132\Desktop\revProject\myproject\target\test-classes;C:\Users\17132\Desktop\revProject\myproject\target\classes;C:\Users\17132\.m2\repository\io\cucumber\cucumber-java\6.1.1\cucumber-java-6.1.1.jar;C:\Users\17132\.m2\repository\io\cucumber\cucumber-core\6.1.1\cucumber-core-6.1.1.jar;C:\Users\17132\.m2\repository\io\cucumber\cucumber-gherkin\6.1.1\cucumber-gherkin-6.1.1.jar;C:\Users\17132\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.1.1\cucumber-gherkin-messages-6.1.1.jar;C:\Users\17132\.m2\repository\io\cucumber\messages\12.1.1\messages-12.1.1.jar;C:\Users\17132\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\17132\.m2\repository\io\cucumber\cucumber-expressions\10.2.0\cucumber-expressions-10.2.0.jar;C:\Users\17132\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\17132\.m2\repository\io\cucumber\cucumber-plugin\6.1.1\cucumber-plugin-6.1.1.jar;C:\Users\17132\.m2\repository\io\cucumber\docstring\6.1.1\docstring-6.1.1.jar;C:\Users\17132\.m2\repository\io\cucumber\html-formatter\6.0.3\html-formatter-6.0.3.jar;C:\Users\17132\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\17132\.m2\repository\io\cucumber\cucumber-junit\6.1.1\cucumber-junit-6.1.1.jar;C:\Users\17132\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\17132\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\17132\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\17132\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\17132\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\17132\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\17132\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\17132\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\17132\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\17132\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\17132\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\17132\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="java.vm.vendor" value="Temurin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\17132\AppData\Local\Temp\surefire7785788200967691298\surefirebooter6933020847903024024.jar C:\Users\17132\AppData\Local\Temp\surefire7785788200967691298 2022-07-01T09-00-47_494-jvmRun1 surefire6263441204425477443tmp surefire_0585663731291926486tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\17132\Desktop\revProject\myproject\target\test-classes;C:\Users\17132\Desktop\revProject\myproject\target\classes;C:\Users\17132\.m2\repository\io\cucumber\cucumber-java\6.1.1\cucumber-java-6.1.1.jar;C:\Users\17132\.m2\repository\io\cucumber\cucumber-core\6.1.1\cucumber-core-6.1.1.jar;C:\Users\17132\.m2\repository\io\cucumber\cucumber-gherkin\6.1.1\cucumber-gherkin-6.1.1.jar;C:\Users\17132\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.1.1\cucumber-gherkin-messages-6.1.1.jar;C:\Users\17132\.m2\repository\io\cucumber\messages\12.1.1\messages-12.1.1.jar;C:\Users\17132\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\17132\.m2\repository\io\cucumber\cucumber-expressions\10.2.0\cucumber-expressions-10.2.0.jar;C:\Users\17132\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\17132\.m2\repository\io\cucumber\cucumber-plugin\6.1.1\cucumber-plugin-6.1.1.jar;C:\Users\17132\.m2\repository\io\cucumber\docstring\6.1.1\docstring-6.1.1.jar;C:\Users\17132\.m2\repository\io\cucumber\html-formatter\6.0.3\html-formatter-6.0.3.jar;C:\Users\17132\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\17132\.m2\repository\io\cucumber\cucumber-junit\6.1.1\cucumber-junit-6.1.1.jar;C:\Users\17132\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\17132\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\17132\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\17132\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\17132\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\17132\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\17132\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\17132\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\17132\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\17132\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\17132\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\17132\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\17132\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\17132"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\jre"/>
+    <property name="basedir" value="C:\Users\17132\Desktop\revProject\myproject"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\17132\AppData\Local\Temp\surefire7785788200967691298\surefirebooter6933020847903024024.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\jre\lib\resources.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\jre\lib\rt.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\jre\lib\sunrsasign.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\jre\lib\jsse.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\jre\lib\jce.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\jre\lib\charsets.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\jre\lib\jfr.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_332-b09"/>
+    <property name="user.name" value="17132"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\17132\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\17132\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_332"/>
+    <property name="user.dir" value="C:\Users\17132\Desktop\revProject\myproject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Git\cmd;C:\Maven\apache-maven-3.8.6\bin;C:\Users\17132\AppData\Local\Microsoft\WindowsApps;C:\Users\17132\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Temurin"/>
+    <property name="java.vm.version" value="25.332-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="As a manager I want to sign in so I can view my custom homepage" classname="Users of my bug catcher application should be able to login to their respective homepages" time="1.051"/>
+  <testcase name="As a tester I want to sign in so I can view my custom homepage" classname="Users of my bug catcher application should be able to login to their respective homepages" time="0.859"/>
+  <testcase name="as the manager i want to name and assign a defect to a tester" classname="Managers of my bug catcher application should be able to create and assign defects" time="0.808"/>
+  <testcase name="Testers should be able to accept defects" classname="Testers of my bug catcher application should be able to update assigned defects" time="0.326">
+    <error message="Cannot locate element with text: Accepted&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-ON5LH59T&apos;, ip: &apos;10.0.0.159&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_332&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Accepted
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-ON5LH59T', ip: '10.0.0.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: driver.version: unknown
+</error>
+    <system-out><![CDATA[
+Scenario: Testers should be able to accept defects &amp#27;[90m# features/tester.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtester is logged into custom tester page&amp#27;[0m   &amp#27;[90m# com.automation.steps.TesterSteps.tester_is_logged_into_custom_tester_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtester selects pending defect by id&amp#27;[0m         &amp#27;[90m# com.automation.steps.TesterSteps.tester_selects_pending_defect_by_id()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mtester selects defect to accept&amp#27;[0m             &amp#27;[90m# com.automation.steps.TesterSteps.tester_selects_defect_to_accept()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: Cannot locate element with text: Accepted
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-ON5LH59T', ip: '10.0.0.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.automation.steps.TesterSteps.tester_selects_defect_to_accept(TesterSteps.java:32)
+	at âœ½.tester selects defect to accept(classpath:features/tester.feature:6)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mtester selects the defect description&amp#27;[0m       &amp#27;[90m# com.automation.steps.TesterSteps.tester_selects_the_defect_description()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mtester clicks the submit button&amp#27;[0m             &amp#27;[90m# com.automation.steps.TesterSteps.tester_clicks_the_submit_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mdefect should be updated as accepted&amp#27;[0m        &amp#27;[90m# com.automation.steps.TesterSteps.defect_should_be_updated_as_accepted()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Testers should be able to accept or Reject" classname="Testers of my bug catcher application should be able to update assigned defects" time="0.116">
+    <error message="Cannot locate element with text: 63452&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-ON5LH59T&apos;, ip: &apos;10.0.0.159&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_332&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: 63452
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-ON5LH59T', ip: '10.0.0.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: driver.version: unknown
+</error>
+    <system-out><![CDATA[
+Scenario: Testers should be able to accept or Reject &amp#27;[90m# features/tester.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtester is logged into custom tester page&amp#27;[0m     &amp#27;[90m# com.automation.steps.TesterSteps.tester_is_logged_into_custom_tester_page()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mtester selects pending defect by id&amp#27;[0m           &amp#27;[90m# com.automation.steps.TesterSteps.tester_selects_pending_defect_by_id()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: Cannot locate element with text: 63452
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-ON5LH59T', ip: '10.0.0.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.automation.steps.TesterSteps.tester_selects_pending_defect_by_id(TesterSteps.java:25)
+	at âœ½.tester selects pending defect by id(classpath:features/tester.feature:13)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mtester selects defect to rejected&amp#27;[0m             &amp#27;[90m# com.automation.steps.TesterSteps.tester_selects_defect_to_rejected()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mtester selects the defect description&amp#27;[0m         &amp#27;[90m# com.automation.steps.TesterSteps.tester_selects_the_defect_description()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mtester clicks the submit button&amp#27;[0m               &amp#27;[90m# com.automation.steps.TesterSteps.tester_clicks_the_submit_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mdefect should be updated as rejected&amp#27;[0m          &amp#27;[90m# com.automation.steps.TesterSteps.defect_should_be_updated_as_rejected()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Testers should be able update the defect status" classname="Testers of my bug catcher application should be able to update assigned defects" time="0.202">
+    <error message="Cannot locate element with text: Fixed&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-ON5LH59T&apos;, ip: &apos;10.0.0.159&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_332&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Fixed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-ON5LH59T', ip: '10.0.0.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: driver.version: unknown
+</error>
+    <system-out><![CDATA[
+Scenario: Testers should be able update the defect status &amp#27;[90m# features/tester.feature:20&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtester is logged into custom tester page&amp#27;[0m          &amp#27;[90m# com.automation.steps.TesterSteps.tester_is_logged_into_custom_tester_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtester selects defect by id&amp#27;[0m                        &amp#27;[90m# com.automation.steps.TesterSteps.tester_selects_defect_by_id()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mtester selects fix shelved or rejected&amp#27;[0m             &amp#27;[90m# com.automation.steps.TesterSteps.tester_selects_fix_shelved_or_rejected()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: Cannot locate element with text: Fixed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-ON5LH59T', ip: '10.0.0.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.automation.steps.TesterSteps.tester_selects_fix_shelved_or_rejected(TesterSteps.java:85)
+	at âœ½.tester selects fix shelved or rejected(classpath:features/tester.feature:24)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mtester selects a  defect description&amp#27;[0m               &amp#27;[90m# com.automation.steps.TesterSteps.tester_selects_a_defect_description()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mtester clicks on the submit button&amp#27;[0m                 &amp#27;[90m# com.automation.steps.TesterSteps.tester_clicks_on_the_submit_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mdefect status should be updated&amp#27;[0m                    &amp#27;[90m# com.automation.steps.TesterSteps.defect_status_should_be_updated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

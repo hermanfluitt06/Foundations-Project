@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Manager Page</title> 
+    <h3>welcome To STAR LABS</h3>
+
+</head>
+<body>
+   <input type ="text" placeholder = "name" id ="name"></input>
+   <br>
+   <input type ="text" placeholder = "name flash" id ="tester"></input>
+   <br>
+   
+   <button onclick= "assign()">assign</button>
+</body>
+<Script>
+    async function assign(){
+        // to let my api validate login information I need to attach the username and password to the http request
+        let assignDefect = {
+            
+  "assignedTo":document.getElementById("tester").value,
+  "dateReported": 0,
+  "desc": document.getElementById("name").value,
+  "stepsToReproduce": "string",
+  "severity": "Low",
+  "priority": "Low"
+        }
+        
+  let assignJSON = JSON.stringify(assignDefect);
+
+        let config ={
+            method: "POST",
+            headers:{'Content-Type':"application/json"},
+            body: assignJSON
+    }
+        
+    let httpResponse = await fetch("https://bugcatcher.coe.revaturelabs.com/10/defects",config); 
+
+    if(httpResponse.status === 200){ // 200 basically means request made successfully
+        
+            let responseBody = await httpResponse.json(); // remember, json() returns a promise, so we use await to get the data we want out of it
+
+            if(responseBody.role === "Manager"){
+                window.location.href = "tPage.html";
+            } else {
+                let responseBody = await httpResponse.json(); // remember, json() returns a promise, so we use await to get the data we want out of it
+            alert(responseBody.detail);
+            }
+        }
+
+    }
+</Script>
+</html>
+    
