@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\weekTwo\\daytwo"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\weekThree\\dayTwo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "revProject"
+	}
+}
